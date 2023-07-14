@@ -1,0 +1,156 @@
+html,
+body {
+    background-color: #f3f3f3;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+hr {
+    width: 80%;
+    background-color: #d9e2ed;
+}
+
+header {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    box-shadow: 0 1px 2px -2px black;
+}
+
+#header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    margin: 0 10px 10px 0;
+}
+
+.headShare {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.shareMenu {
+    display: none;
+}
+
+.headRight {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.headSocial {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 50px;
+    
+}
+
+.headSocial a {
+    filter: brightness(0.8);
+}
+
+.headSocial a:hover {
+    filter: brightness(1.2);
+    transform: scale(1.2);
+    transition: filter 0.5s ease-in, transform 0.5s ease-out;
+}
+
+.headMenu {
+    display: flex;
+    gap: 20px;
+    margin-right: 50px;
+}
+
+.headMenu a:nth-child(1) {
+    background-image: url(/css/img/1280/rss.png);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.headMenu a:nth-child(1):hover {
+    background-image: url(/css/img/1280/rssHover.png);
+    transition: background-image 0.5s ease-out;
+}
+
+.headMenu a:nth-child(2) {
+    background-image: url(/css/img/1280/bell.png);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.headMenu a:nth-child(2):hover {
+    background-image: url(/css/img/1280/bellHover.png);
+    transition: background-image 0.5s ease-out;
+}
+
+.headMenu a:nth-child(3) {
+    background-image: url(/css/img/1280/mail.png);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    width: 23px;
+    height: 20px;
+}
+
+.headMenu a:nth-child(3):hover {
+    background-image: url(/css/img/1280/mailHover.png);
+    transition: background-image 0.5s ease-out;
+}
+
+.headProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.headProfile:nth-child(2) {
+    
+}
+
+.headUser {
+    display: none;
+}
+
+/* .headProfile:hover .headUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    width: 100px;
+    height: 70px;
+} */
+
+.headUser a:hover {
+    color: red;
+}
+
+.headLogo {
+    margin-left: 180px;
+}
+
+.headLogo:hover {
+    transform: scale(1.1);
+    transition: filter 1s ease-in, transform 0.5s ease-out;
+}
