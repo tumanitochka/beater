@@ -78,7 +78,7 @@ header {
 }
 
 .headMenu a:nth-child(1) {
-    background-image: url(/css/img/1280/rss.png);
+    background-image: url(../css/img/1280/rss.png);
     background-position: 100% 100%;
     background-repeat: no-repeat;
     width: 20px;
@@ -86,12 +86,12 @@ header {
 }
 
 .headMenu a:nth-child(1):hover {
-    background-image: url(/css/img/1280/rssHover.png);
+    background-image: url(../css/img/1280/rssHover.png);
     transition: background-image 0.5s ease-out;
 }
 
 .headMenu a:nth-child(2) {
-    background-image: url(/css/img/1280/bell.png);
+    background-image: url(../css/img/1280/bell.png);
     background-position: 100% 100%;
     background-repeat: no-repeat;
     width: 20px;
@@ -99,12 +99,12 @@ header {
 }
 
 .headMenu a:nth-child(2):hover {
-    background-image: url(/css/img/1280/bellHover.png);
+    background-image: url(../css/img/1280/bellHover.png);
     transition: background-image 0.5s ease-out;
 }
 
 .headMenu a:nth-child(3) {
-    background-image: url(/css/img/1280/mail.png);
+    background-image: url(../css/img/1280/mail.png);
     background-position: 100% 100%;
     background-repeat: no-repeat;
     width: 23px;
@@ -112,7 +112,7 @@ header {
 }
 
 .headMenu a:nth-child(3):hover {
-    background-image: url(/css/img/1280/mailHover.png);
+    background-image: url(../css/img/1280/mailHover.png);
     transition: background-image 0.5s ease-out;
 }
 
